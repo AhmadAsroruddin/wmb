@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rancho&display=swap');
+
+$light: #eef9ff;
+$dark:       #0c0c04;
+$primary:  #ccf062;
+$secondary:    #04c066;
+$info:       #23abb9;
+$success:    #04c066;
+$warning:    #e3faca;
+$danger:     #ff1521;
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  10: $spacer * 15
+);
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
